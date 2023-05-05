@@ -1,9 +1,9 @@
 package projetannexe14;
 
 public class Autoroute extends Route{
-    private int echangeur;
+    private double echangeur;
 
-    public Autoroute(double kilometre, double nbpont, double passagefaunique, boolean accotement,int echangeur) {
+    public Autoroute(double kilometre, double nbpont, double passagefaunique, boolean accotement,double echangeur) {
         super(kilometre, nbpont, passagefaunique, accotement);
         this.echangeur=echangeur;
     }

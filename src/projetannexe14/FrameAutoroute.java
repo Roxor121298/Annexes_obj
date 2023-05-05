@@ -148,9 +148,10 @@ public class FrameAutoroute
             {
 
                 // Créer un objet Route
+                Route route2 = new Route(Double.parseDouble(nbKilo),Double.parseDouble(nbPo), Double.parseDouble(nbPass),acco);
 
                 // Afficher le coût
-
+                champCout.setText(String.valueOf(route2.calculerCout()));
 
 
 
@@ -159,8 +160,10 @@ public class FrameAutoroute
             else
             {
                 // Créer un objet Autoroute
+                Route autoroute2 = new Autoroute(Double.parseDouble(nbKilo),Double.parseDouble(nbPo),Double.parseDouble(nbPass),acco,Double.parseDouble(nbEchan));
 
                 // Afficher le cout
+                champCout.setText(String.valueOf(autoroute2.calculerCout()));
 
             }
 
