@@ -32,7 +32,7 @@ public class Route {
     public double calculerCout(){
         double cout=0;
 
-        cout+=(Kilometre/3.4);
+        cout+=(Kilometre*3.4);
         cout+=(cout*0.1);
         cout+=(Nbpont*6);
         cout+=(Passagefaunique*0.7);

@@ -183,7 +183,10 @@ public class FrameAutoroute
         FrameAutoroute fa = new FrameAutoroute();
         Route route = new Route(12,12,12,false);
         route.calculerCout();
+        Route autoroute = new Autoroute(12,12,12,true,2);
+        autoroute.calculerCout();
         System.out.println(route.calculerCout());
+        System.out.println(autoroute.calculerCout());
         fa.setVisible(true);
         fa.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
