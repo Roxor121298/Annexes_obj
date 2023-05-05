@@ -181,6 +181,9 @@ public class FrameAutoroute
     public static void main ( String [] args )
     {
         FrameAutoroute fa = new FrameAutoroute();
+        Route route = new Route(12,12,12,false);
+        route.calculerCout();
+        System.out.println(route.calculerCout());
         fa.setVisible(true);
         fa.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
